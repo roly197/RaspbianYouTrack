@@ -5,7 +5,7 @@ This Docker image is based on the JetBrains Docker 'jetbrains/youtrack:<version>
   
 This repository contains a UNOFFICIAL Docker image of JetBrains YouTrack.
 
-- The Docker image is available at RaspbianYouTrack
+- The Docker image is available at roly197/RaspbianYouTrack
 
 
 # Usage
