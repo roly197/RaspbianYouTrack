@@ -30,3 +30,11 @@ docker run -d \
  -p 80:8081 \
 youtrack
 ```
+
+# First time startup 
+Get your wizard_token from the file system: 
+```sh
+cat /opt/youtrack/data/conf/internal/services/configurationWizard/wizard_token.txt
+```
+After startup (could take a minute), point your browser to the instance. 
+The initial login page will present you with a 'Hang in there...' page; Now paste your token in the token field and finalize your installation.  
