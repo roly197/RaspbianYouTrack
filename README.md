@@ -9,14 +9,15 @@ This repository contains a UNOFFICIAL Docker image of JetBrains YouTrack.
 
 
 # Usage
-
+```sh
 docker build -t youtrack .
+```
 
 # Start from Docker host
 Create the local directories: 
 
 ```sh
-mkdir /opt/youtrack /opt/youtrack/data /opt/youtrack/data
+mkdir /opt/youtrack /opt/youtrack/data /opt/youtrack/backup
 ```
 
 Now start the container
