@@ -16,7 +16,7 @@ docker build -t youtrack .
 # Start from Docker host
 Optionally store data files on an OMV NFS:
 ```sh
-sudo mount -t nfs -o resvport,rw 192.168.178.199:/NFSData/youtrack /opt/youtrack
+sudo mount -t nfs -o resvport,rw 192.168.x.x:/NFSData/youtrack /opt/youtrack
 ```
 
 Create the local directories: 
